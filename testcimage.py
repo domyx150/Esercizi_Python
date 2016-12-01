@@ -1,0 +1,1 @@
+import cImage as image

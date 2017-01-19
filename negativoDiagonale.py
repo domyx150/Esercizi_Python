@@ -1,7 +1,7 @@
 #Solo Diagonale
-import image
+import cImage as image
 
-img = image.Image("goldygopher.png")
+img = image.Image("test.gif")
 win = image.ImageWin(img.getWidth(), img.getHeight())
 img.draw(win)
 img.setDelay(1,15)   # setDelay(0) turns off animation
